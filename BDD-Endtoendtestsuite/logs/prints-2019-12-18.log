@@ -1,0 +1,6 @@
+16:42:33.338 [TestNG-tests-2] INFO  resources.BaseResourseClass - Navigate to home page
+16:42:33.391 [TestNG-tests-3] INFO  resources.BaseResourseClass - Navigate to home page
+16:42:33.536 [TestNG-tests-3] INFO  resources.BaseResourseClass - Title is successfully validated
+16:42:33.607 [TestNG-tests-2] INFO  resources.BaseResourseClass - Navigation Bar is successfully validated
+16:42:33.654 [TestNG-tests-3] INFO  resources.BaseResourseClass - Header is successfully validated
+16:42:40.622 [TestNG-tests-1] INFO  resources.BaseResourseClass - Non restricted User

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+    <listeners>
+
+        <listener class-name="resources.TestNGListener"/>
+        <listener class-name="resources.ExtentReporterNG"/>
+
+    </listeners>
+    <test name="Validate User Login">
+        <classes>
+            <class name="HomePage"/>
+        </classes>
+    </test>
+    <test name="Validate Navigation Bar">
+        <classes>
+            <class name="VerifyNavigationBar"/>
+        </classes>
+    </test>
+    <test name="Validate Title">
+        <classes>
+            <class name="VerifyTitle"/>
+        </classes>
+    </test>
+</suite>

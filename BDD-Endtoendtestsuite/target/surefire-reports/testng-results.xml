@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="17337" started-at="2019-12-18T16:41:19 EET" finished-at="2019-12-18T16:41:36 EET">
+    <groups>
+    </groups>
+    <test name="Validate User Login" duration-ms="17337" started-at="2019-12-18T16:41:19 EET" finished-at="2019-12-18T16:41:36 EET">
+      <class name="HomePage">
+        <test-method status="PASS" signature="inicialized()[pri:0, instance:HomePage@4c402120]" name="inicialized" is-config="true" duration-ms="1771" started-at="2019-12-18T16:41:19 EET" finished-at="2019-12-18T16:41:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicialized -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HomePage@4c402120]" name="basePageNavigation" duration-ms="11445" started-at="2019-12-18T16:41:21 EET" data-provider="getData" finished-at="2019-12-18T16:41:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nonrestricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HomePage@4c402120]" name="basePageNavigation" duration-ms="4021" started-at="2019-12-18T16:41:32 EET" data-provider="getData" finished-at="2019-12-18T16:41:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:HomePage@4c402120]" name="teardown" is-config="true" duration-ms="64" started-at="2019-12-18T16:41:36 EET" finished-at="2019-12-18T16:41:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- HomePage -->
+    </test> <!-- Validate User Login -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

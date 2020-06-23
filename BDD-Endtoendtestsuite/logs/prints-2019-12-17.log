@@ -1,0 +1,7 @@
+10:12:05.510 [main] INFO  resources.BaseResourseClass - Title is successfully validated
+20:02:54.231 [main] INFO  resources.BaseResourseClass - Non restricted User
+20:02:59.223 [main] INFO  resources.BaseResourseClass - Restricted User
+20:03:00.324 [main] INFO  resources.BaseResourseClass - Driver is initialized
+20:03:05.542 [main] INFO  resources.BaseResourseClass - Navigate to home page
+20:03:05.612 [main] INFO  resources.BaseResourseClass - Navigation Bar is successfully validated
+20:03:06.800 [main] INFO  resources.BaseResourseClass - Driver is initialized
